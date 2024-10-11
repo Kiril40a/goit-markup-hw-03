@@ -38,7 +38,6 @@ body {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -190,7 +189,7 @@ margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.opacity04 {
+.opacity {
     opacity: 0.4;
 }
 .team-section_list {
@@ -214,7 +213,7 @@ margin: 0 auto;
     color: #2e2f42;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-section_image{
     margin-bottom: 32px;
