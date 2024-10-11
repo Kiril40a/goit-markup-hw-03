@@ -32,7 +32,17 @@ body {
 }
 
 .visually-hidden {
-    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* обмеження контенту  */
@@ -86,6 +96,7 @@ margin: 0 auto;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .menu_link:hover,
 .menu_link:focus {
@@ -269,6 +280,10 @@ margin: 0 auto;
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.foot_logo {
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .foot_studio {
     color: #f4f4fd;
